@@ -11,6 +11,7 @@ The main goal of this project is to predict the solar wind properties at the Ear
 **Background study**
 
 What is Solar wind:
+
 Sunspot solar cycle:
 
 Solar wind Properties at 1~au:
@@ -19,6 +20,8 @@ Solar wind Properties at 1~au:
 - Magnetic field strength (B)
 - Plasma temperature (T[K])
 - Solar Wind Speed (Ur)
+
+Coronal mass ejections (CMEs)
 
 ---
 
