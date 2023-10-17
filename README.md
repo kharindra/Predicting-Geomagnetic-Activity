@@ -4,7 +4,7 @@
 
 **Problem Statement**
 
-The main goal of this project is to predict the solar wind properties at the Earth's trajectory and find a robust model that can expect them from the sunspot number. There are several physics-based models to predict solar wind, which include thermodynamics    
+The main goal of this project is to predict the solar wind properties at the Earth's trajectory and to develop a machine learning web application that can predict them from the sunspot number. There are several physics-based models that are computationally expensive to predict solar wind, which include thermodynamics that heat and accelerate them. The input for these models is mainly from the solar magnetogram data, which is the photospheric magnetic field observations.      
 
 ---
 
@@ -15,10 +15,10 @@ Sunspot solar cycle:
 
 Solar wind Properties at 1~au:
 
-- Plasma density
-- Magnetic field strength
-- Plasma temperature
-- Solar Wind Speed
+- Plasma density (Np)
+- Magnetic field strength (B)
+- Plasma temperature (T[K])
+- Solar Wind Speed (Ur)
 
 ---
 
