@@ -25,6 +25,24 @@ Coronal mass ejections (CMEs)
 
 ---
 
+**Kp-index**
+
+- The Kp-index is a scale used to characterize the magnitude of geomagnetic disturbances. 
+- A geomagnetic storm starts at Kp5 after which the G-scale is also used.
+
+##
+Kp0 = Quiet
+Kp1 = Quiet
+Kp2 = Quiet
+Kp3 = Unsettled
+Kp4 = Active
+Kp5 = Minor storm (G1)
+Kp6 = Moderate storm (G2)
+Kp7 = Strong storm (G3)
+Kp8 = Severe storm (G4)
+Kp9 = Extreme storm (G5)
+##
+
 **Datasets**
 
 
