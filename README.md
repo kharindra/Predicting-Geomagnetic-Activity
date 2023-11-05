@@ -34,7 +34,7 @@ To run the application, install all required libraries above. And run the follow
 streamlit run web_app.py
 ```
 
-<img src =/images/web_app.png/>
+<img src =images/web_app.png/>
 
 **Background study**
 
