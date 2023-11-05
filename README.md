@@ -26,6 +26,16 @@ The main goal of this project is to predict the solar wind properties at the Ear
 - **scipy:** Provides signal processing capabilities.
 - **selenium,ChromeDriver/SafariDriver:** For web scraping and automation.
 
+### Application:
+
+To run the application, install all required libraries above. And run the following command from the local repo **/streamlit** directory:
+
+```console
+streamlit run web_app.py
+```
+
+<img src =images/web_app.png/>
+
 **Background study**
 
 What is Solar wind:
