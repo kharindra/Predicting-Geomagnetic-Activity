@@ -61,10 +61,10 @@ Coronal mass ejections (CMEs)
 - Kp9 = Extreme storm (G5)
 ##
 
-**Datasets**
-
-
+### Datasets
 
 - https://www.sidc.be/SILSO/datafiles
 - https://cdaweb.gsfc.nasa.gov/
+- https://www.gfz-potsdam.de/en/section/geomagnetism/data-products-services/geomagnetic-kp-index
+
 
