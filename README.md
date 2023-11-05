@@ -8,6 +8,24 @@ The main goal of this project is to predict the solar wind properties at the Ear
 
 ---
 
+### Software Requirements
+
+- **pandas:** Required for data manipulation.
+- **numpy:** Essential for numerical operations.
+- **os:** For interacting with the operating system.
+- **glob:** Helps in file manipulation.
+- **matplotlib:** Used for data visualization.
+- **seaborn:** Enhances data visualization.
+- **datetime:** For working with date and time.
+- **scikit-learn:** For machine learning models and evaluation.
+    - **sklearn.tree.DecisionTreeClassifier:** For Decision Tree based classification.
+    - **sklearn.ensemble.RandomForestClassifier:** For Random Forest based classification.
+    - **sklearn.svm.SVC:** For Support Vector Machines based classification.
+    - **sklearn.ensemble.GradientBoostingClassifier:** For Gradient Boosting based classification.
+- **imblearn.over_sampling.SMOTE:** For synthetic oversampling in imbalanced datasets.
+- **scipy:** Provides signal processing capabilities.
+- **selenium,ChromeDriver/SafariDriver:** For web scraping and automation.
+
 **Background study**
 
 What is Solar wind:
