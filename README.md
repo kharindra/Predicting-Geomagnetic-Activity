@@ -128,7 +128,7 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
             sunspot.csv
             test_sc.csv
 
--images
+- images
     - Images used /created throughout the project
 
 - pickles
