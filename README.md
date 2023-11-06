@@ -58,7 +58,7 @@ streamlit run web_app.py
       Solar maximum
       Declining phase
 
-cite : https://www.swpc.noaa.gov/products/solar-cycle-progression      
+To learn more about space weather predictions please visit : https://www.swpc.noaa.gov/products/solar-cycle-progression     
 
 ### Solar wind Properties at 1~au:
 
