@@ -116,8 +116,8 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 
          This notebook uses automation to download solar wind parameter data at 1~au using the NASA, Coordinated Data Analysis Web.
 
-              Requirements:
-                    Selenium webdriver (chrome/safari)
+          Requirements:
+          Selenium webdriver (chrome/safari)
 
     - Data
           This folder includes the following .csv and .csv1 files
@@ -127,11 +127,19 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
             all_params.csv
             sunspot.csv
             test_sc.csv
-      
- - images
- - pickles
- - ref
- - streamlit
+
+-images
+    - Images used /created throughout the project
+
+- pickles
+    - **model.pkl** - Final pickled model that is used in the Streamlit App this is chosen to be from the RandomForest model.
+    - **predict_G_storm.pkl** - This pickled function is for the data processing and cleaning
+ 
+
+- streamlit
+    - **web_app.py** - streamlit App code
+    - Test_Streamlit.ipynb - used to test the interactive web app
+    - G_storm.py - Function for the data processing and cleaning
 
 ### Model Evaluation
 
