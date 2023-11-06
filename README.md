@@ -44,7 +44,7 @@ streamlit run web_app.py
 - Solar wind can mainly be divided into slow and fast wind, the common state of the solar wind is slow wind.
   
        slow wind 200 km/s - 450 km/s
-       fast wind 4500 km/s - 850 km/s
+       fast wind 450 km/s - 850 km/s
 
 ### Sunspot solar cycle:
 - Solar cycles have an average duration of about 11 years.
