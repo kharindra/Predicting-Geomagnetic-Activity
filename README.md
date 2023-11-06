@@ -2,7 +2,13 @@
 
 ### Problem Statement
 
-The main goal of this project is to predict the solar wind properties at the Earth's trajectory and to develop a machine learning web application that can predict them from the sunspot number. There are several physics-based models that are computationally expensive to predict solar wind, which include thermodynamics that heat and accelerate them, wave heating (ion-cyclotron waves), and micro-flare (or nano-flare) heating are the most commonly identified heating mechanisms for solar wind heating. The primary input of these models is the solar magnetogram data, which is the photospheric (solar surface) magnetic field observations.      
+The main goal of this project is to identify the relationship between the solar indices (sunspot number, F10.7cm radio flux) and the geomagnetic indices and to track geomagnetic activity near Earth. This study will also ensure the identification of the effects of auroras based on the solar wind properties at 1~au, derived from solar activity.
+
+The model developed here will help users identify whether a specific day might experience a geomagnetic storm or not. For this project, we have utilized sunspot data and solar wind data from January 1, 1992, to December 31, 2022. To test the model, we selected data from January 1, 2023, to October 27, 2023. In the future, we plan to increase the dataset by gathering information available from various websites. We anticipate that this will enhance the model's accuracy and its ability to track geomagnetic storms more precisely.
+
+The major benefit of predicting geomagnetic events is to protect the power grid system on Earth, avoid damage to GPS and satellite systems, as well as safeguard astronauts.
+
+**Note:** 1~au is the distance between the sun and the earth
 
 ---
 
@@ -38,7 +44,7 @@ streamlit run web_app.py
 - Solar wind can mainly be divided into slow and fast wind, the common state of the solar wind is slow wind.
   
        slow wind 200 km/s - 450 km/s
-       fast wind 4500 km/s - 850 km/s
+       fast wind 450 km/s - 850 km/s
 
 ### Sunspot solar cycle:
 - Solar cycles have an average duration of about 11 years.
@@ -52,7 +58,7 @@ streamlit run web_app.py
       Solar maximum
       Declining phase
 
-cite : https://www.swpc.noaa.gov/products/solar-cycle-progression      
+To learn more about space weather predictions please visit : https://www.swpc.noaa.gov/products/solar-cycle-progression     
 
 ### Solar wind Properties at 1~au:
 
@@ -167,8 +173,8 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 
 | Model          | Score on train | Score on test |
 |----------------|----------------|---------------|
-| Randomfc       |     0.982      |     0.951     |
-| DecisionTree   |     0.968      |     0.935     |
+| RandomForestc       |     0.982      |     0.951     |
+| DecisionTreec   |     0.968      |     0.935     |
 
 
 <img src = images/confusion_matrix.png/>
