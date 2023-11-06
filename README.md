@@ -143,9 +143,17 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 
 ### Model Evaluation
 
+***Model evaluation based on train/test score***
+
+| Model          | Score on train | Score on test |
+|----------------|----------------|---------------|
+| Randomfc       |     0.982      |     0.951     |
+| DecisionTree   |     0.968      |     0.935     |
+
+
 <img src = images/confusion_matrix.png/>
 
-**Classification report**
+***Classification report***
 
 |      | Precision | Recall | F1-Score | Support |
 |------|-----------|--------|----------|---------|
