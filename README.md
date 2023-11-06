@@ -8,7 +8,8 @@ The model developed here will help users identify whether a specific day might e
 
 The major benefit of predicting geomagnetic events is to protect the power grid system on Earth, avoid damage to GPS and satellite systems, as well as safeguard astronauts.
 
-Note: 1~au is the distance between the sun and the earth
+**Note:** 1~au is the distance between the sun and the earth
+
 ---
 
 ### Software Requirements
