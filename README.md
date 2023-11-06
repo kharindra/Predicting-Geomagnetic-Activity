@@ -144,8 +144,8 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
         | 13  | phase_rising           | 90520 non-null  | object |
         | 14  | phase_solar_max        | 90520 non-null  | object |
         | 15  | phase_solar_min        | 90520 non-null  | object |
-        | 16  | SN                     | 90520 non-null  | object |
-        | 17  | F10.7obs               | 90520 non-null  | object |
+        | 16  | SN                     | 90520 non-null  | float64 |
+        | 17  | F10.7obs               | 90520 non-null  | float64 |
         | 18  | G                      | 90520 non-null  | object |
 
 
