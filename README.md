@@ -126,6 +126,29 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
             sunspot.csv
             test_sc.csv
 
+        | #   | Column                 | Non-Null Count  | Dtype  |
+        |-----|------------------------|-----------------|--------|
+        | 0   | Wind_Category_extreme  | 90520 non-null  | object |
+        | 1   | Wind_Category_fast     | 90520 non-null  | object |
+        | 2   | Wind_Category_slow     | 90520 non-null  | object |
+        | 3   | Np_Category_extreme    | 90520 non-null  | object |
+        | 4   | Np_Category_high       | 90520 non-null  | object |
+        | 5   | Np_Category_low        | 90520 non-null  | object |
+        | 6   | B_Category_extreme     | 90520 non-null  | object |
+        | 7   | B_Category_high        | 90520 non-null  | object |
+        | 8   | B_Category_low         | 90520 non-null  | object |
+        | 9   | T_Category_extreme     | 90520 non-null  | object |
+        | 10  | T_Category_high        | 90520 non-null  | object |
+        | 11  | T_Category_low         | 90520 non-null  | object |
+        | 12  | phase_declining        | 90520 non-null  | object |
+        | 13  | phase_rising           | 90520 non-null  | object |
+        | 14  | phase_solar_max        | 90520 non-null  | object |
+        | 15  | phase_solar_min        | 90520 non-null  | object |
+        | 16  | SN                     | 90520 non-null  | object |
+        | 17  | F10.7obs               | 90520 non-null  | object |
+        | 18  | G                      | 90520 non-null  | object |
+
+
 - images
     - Images used /created throughout the project
 
