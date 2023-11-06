@@ -105,6 +105,7 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 ### Folder structure
  - code
    - notebook.ipynb
+     
          This notebook included software requirements, data visualization, feature engineering, modeling, Model evaluation
              - Used RandomForestClassifier, and DecisionTreeClassifier as the classification models
              - Selected the best model out of that for predictions
