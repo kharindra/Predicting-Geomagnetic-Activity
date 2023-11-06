@@ -145,6 +145,22 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 
 <img src = images/confusion_matrix.png/>
 
+**Classification report**
+
+|      | Precision | Recall | F1-Score | Support |
+|------|-----------|--------|----------|---------|
+|  G0  |   0.965   |  0.956 |  0.960   |  21173  |
+|  G1  |   0.920   |  0.915 |  0.917   |  21173  |
+|  G2  |   0.925   |  0.920 |  0.923   |  21173  |
+|  G3  |   0.941   |  0.950 |  0.946   |  21173  |
+|  G4  |   0.962   |  0.973 |  0.967   |  21172  |
+|  G5  |   0.992   |  0.992 |  0.992   |  21173  |
+|------|-----------|--------|----------|---------|
+|  Accuracy  |         |        |  0.951   | 127037  |
+|  Macro Avg |   0.951   |  0.951 |  0.951   | 127037  |
+| Weighted Avg|  0.951   |  0.951 |  0.951   | 127037  |
+
+
 ### Datasets
 
 - https://www.sidc.be/SILSO/datafiles
