@@ -44,6 +44,9 @@ streamlit run web_app.py
        fast wind 4500 km/s - 850 km/s
 
 ### Sunspot solar cycle:
+- Solar cycles have an average duration of about 11 years.
+- Solar maximum and solar minimum refer to periods of maximum and minimum sunspot counts.
+- Cycles span from one minimum to the next.
 
 ### Solar wind Properties at 1~au:
 
