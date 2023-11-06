@@ -91,6 +91,7 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 | 9-    | 8.67           | G4      | Severe storm     |
 | 9o    | 9.00           | G5      | Extreme storm    |
 
+### Model Evaluation
 
 ### Datasets
 
@@ -98,4 +99,13 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 - https://cdaweb.gsfc.nasa.gov/
 - https://www.gfz-potsdam.de/en/section/geomagnetism/data-products-services/geomagnetic-kp-index
 
+### Author:
+    
+**Kalpa Henadhira Arachchige (he/him)** 
+    - [Github](https://github.com/kharindra)
+    - [LinkedIn](https://www.linkedin.com/in/kalpa-henadhira/)
+    
+
+### Special Thanks
+- To our advisors: Musfiqur Rahman, Sonyah Seiden, and Eric Bayless
 
