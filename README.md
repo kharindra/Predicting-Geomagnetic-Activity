@@ -48,6 +48,14 @@ streamlit run web_app.py
 - Solar maximum and solar minimum refer to periods of maximum and minimum sunspot counts.
 - Cycles span from one minimum to the next.
 
+      **Phases of the Solar Cycle:**
+  
+      - Solar minimum
+      - Rising phase
+      - Solar maximum
+      - Declining phase
+      
+
 ### Solar wind Properties at 1~au:
 
     Plasma density (Np)
