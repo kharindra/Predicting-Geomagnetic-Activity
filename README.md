@@ -50,10 +50,10 @@ streamlit run web_app.py
 
 ### Solar wind Properties at 1~au:
 
-- Plasma density (Np)
-- Magnetic field strength (B)
-- Plasma temperature (T[K])
-- Solar Wind Speed (Ur)
+    Plasma density (Np)
+    Magnetic field strength (B)
+    Plasma temperature (T[K])
+    Solar Wind Speed (Ur)
 
 ---
 ### Kp-index
