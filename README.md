@@ -46,16 +46,14 @@ streamlit run web_app.py
        slow wind 250 km/s - 400 km/s
        fast wind 400 km/s - 800 km/s
 
-Sunspot solar cycle:
+### Sunspot solar cycle:
 
-Solar wind Properties at 1~au:
+### Solar wind Properties at 1~au:
 
 - Plasma density (Np)
 - Magnetic field strength (B)
 - Plasma temperature (T[K])
 - Solar Wind Speed (Ur)
-
-Coronal mass ejections (CMEs)
 
 ---
 ### Kp-index
