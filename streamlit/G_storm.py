@@ -9,11 +9,11 @@ def predict_G_storm(omni, sunspot, phase):
 
     ### Load the saved model
     
-    with open('model.pkl', 'rb') as model_file:
+    with open('../pickles/model.pkl', 'rb') as model_file:
         loaded_model = pickle.load(model_file)
     
     
-    path = 'Data_collection/Data/' + omni
+    path = '../Data_collection/Data/' + omni
 
     new = pd.read_csv(path, skiprows=None)
     new.columns = ['date','B','T[K]','Np','Ur']
@@ -49,7 +49,7 @@ def predict_G_storm(omni, sunspot, phase):
     new_sw['phase'] = phase
 
     
-    df3 = pd.read_csv('Data_collection/Data/' + sunspot)
+    df3 = pd.read_csv('../Data_collection/Data/' + sunspot)
 
     new_sw['SN'] = np.repeat(np.array(df3['SN']), 8)
     new_sw['F10.7obs'] = np.repeat(np.array(df3['F10.7obs']), 8)
