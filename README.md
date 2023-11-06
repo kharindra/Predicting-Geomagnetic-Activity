@@ -104,7 +104,7 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 
 ### Folder structure
  - code
-   - notebook.ipynb
+   - **notebook.ipynb**
      
          This notebook included software requirements, data visualization, feature engineering, modeling, Model evaluation
      
@@ -112,7 +112,7 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
              - Selected the best model out of that for predictions
            
  - Data_collection
-    - OMNI_websitedata_collection.ipynb
+    - **OMNI_websitedata_collection.ipynb**
 
          This notebook uses automation to download solar wind parameter data at 1~au using the NASA, Coordinated Data Analysis Web.
 
@@ -139,7 +139,7 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 - streamlit
     - **web_app.py** - streamlit App code
     - Test_Streamlit.ipynb - used to test the interactive web app
-    - G_storm.py - Function for the data processing and cleaning
+    - **G_storm.py** - Function for the data processing and cleaning
 
 ### Model Evaluation
 
