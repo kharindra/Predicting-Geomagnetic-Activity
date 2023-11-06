@@ -43,8 +43,8 @@ streamlit run web_app.py
 - Solar wind consists of particles emitted from the sun's atmosphere with a sufficiently large velocity to escape from the sun's gravitational acceleration.
 - Solar wind can mainly be divided into slow and fast wind, the common state of the solar wind is slow wind.
   
-      - slow wind 250 km/s - 400 km/s
-      - fast wind 400 km/s - 800 km/s
+       slow wind 250 km/s - 400 km/s
+       fast wind 400 km/s - 800 km/s
 
 Sunspot solar cycle:
 
