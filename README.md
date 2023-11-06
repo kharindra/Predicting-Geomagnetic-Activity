@@ -36,8 +36,6 @@ streamlit run web_app.py
 
 <img src =images/web_app.png/>
 
-**Background study**
-
 ### What is Solar wind:
 
 - Solar wind consists of particles emitted from the sun's atmosphere with a sufficiently large velocity to escape from the sun's gravitational acceleration.
