@@ -107,10 +107,15 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
    - notebook.ipynb
      
          This notebook included software requirements, data visualization, feature engineering, modeling, Model evaluation
+     
              - Used RandomForestClassifier, and DecisionTreeClassifier as the classification models
              - Selected the best model out of that for predictions
            
  - Data_collection
+    - OMNI_websitedata_collection.ipynb
+
+         This notebook uses automation to download solar wind parameter data at 1~au using the NASA, Coordinated Data Analysis Web![image](https://github.com/kharindra/Predicting-Solar-wind-properties-at-1-au/assets/80120620/1568119a-1cc2-4dff-b43d-3d0c4f46aa92)
+
  - images
  - pickles
  - ref
