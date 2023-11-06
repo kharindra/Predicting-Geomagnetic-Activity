@@ -10,17 +10,17 @@ from sklearn.compose import ColumnTransformer
 
 ### Load the saved model
     
-with open('model.pkl', 'rb') as model_file:
+with open('../pickles/model.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 
 
-img = "background.jpeg"
+img = "../images/background.jpeg"
 
 
 st.image(img)
 
 
-st.title('Predicting Geomagnetic Storm')
+st.title('Predicting Geomagnetic Activity')
 
 # Fixed column names
 columns = ['Wind_Category', 'Np_Category', 'B_Category', 'T_Category', 'phase', 'SN', 'F10.7obs']
@@ -146,11 +146,18 @@ if all(v is not None for v in data.values()):
     
     st.write(aurora)
 
+    link_url = "https://www.swpc.noaa.gov/communities/aurora-dashboard-experimental"
+
+    # Create a button
+    if st.button('NOAA'):
+        # When the button is clicked, open the link in a new tab
+        st.markdown(f'<a href="{link_url}" target="_blank">Check more on the website</a>', unsafe_allow_html=True)
+
 st.divider()
 
-st.title('Predicting solar wind data from 2023.01.01')
+st.title('Predicting Geomagnetic Activity from 2023.01.01 to 2023.10.27')
 
-img = "sunspots.jpeg"
+img = "../images/sunspots.jpeg"
 
 st.image(img)
 
@@ -166,7 +173,7 @@ uploaded_file2 = st.file_uploader("", type=["csv1"])
 
 st.sidebar.write("**Kalpa Henadhira Arachchige**")
 st.sidebar.write("**Date: 11/06/2023**")
-st.sidebar.write("**DSI Capstone project**")
+st.sidebar.write("**GA DSIR 8-14 Capstone Project**")
 
 if uploaded_file1 and uploaded_file2 is not None:
     # Read the CSV file
@@ -280,10 +287,10 @@ if uploaded_file1 and uploaded_file2 is not None:
     ax.set_title('')
 
     if st.sidebar.button('G_scale'):
-        st.sidebar.image('kp_g.jpeg')
+        st.sidebar.image('../images/kp_g.jpeg')
 
     if st.sidebar.button('Solar Cycle'):
-        st.sidebar.image('sn_kp.jpeg')
+        st.sidebar.image('../images/sn_kp.jpeg')
     
     if st.sidebar.button('Storm result'):
         st.sidebar.pyplot(fig1)
