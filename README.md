@@ -4,7 +4,7 @@
 
 The main goal of this project is to identify the relationship between the solar indices (sunspot number, F10.7cm radio flux) and the geomagnetic indices in order to track the geomagnetic activity near Earth under different phases of the solar cycle. This study will ensure the identification of the strength of auroras based on the observed solar wind at 1~au.
 
-The developed machine learning model will help the users to identify whether the specific day might be experiencing a geomagnetic storm or not. As for now, we have only utilized data from January 1, 1992, to December 31, 2022, to train the model. Later, we expect to use more data in order to improve the accuracy and identify any new research trends in the model. To test the model, we selected data for the time period from January 1, 2023, to October 27, 2023.
+The developed machine learning model will help the users to identify whether the specific day might be experiencing a geomagnetic storm or not. As for now, to train the model, we have only utilized data from January 1, 1992, to December 31, 2022. Later, we expect to use more data in order to improve the accuracy of the model. To test the model, we selected data for the time period from January 1, 2023, to October 27, 2023.
 
 ---
 
@@ -26,7 +26,7 @@ The developed machine learning model will help the users to identify whether the
 
 ### Application:
 
-To run the application, you'll need to install all the required libraries above. And run the following command from the local repo **/streamlit** directory:
+To run the application, you'll need to install all the libraries listed above. And run the following command from the local repo **/streamlit** directory:
 
 ```console
 streamlit run web_app.py
