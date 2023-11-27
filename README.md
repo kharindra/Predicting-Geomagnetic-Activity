@@ -218,5 +218,5 @@ Baseline acc : 0.935
 - https://www.swpc.noaa.gov/products/planetary-k-index
 - https://www.spaceweatherlive.com/en/help/the-kp-index.html
 - https://www.swpc.noaa.gov/phenomena/solar-wind
-- 
+- https://www.gfz-potsdam.de/en/section/geomagnetism/data-products-services/geomagnetic-kp-index
 
