@@ -213,3 +213,10 @@ Baseline acc : 0.935
 ### Special Thanks
 - To our advisors: Musfiqur Rahman, Sonyah Seiden, and Eric Bayless
 
+### References
+
+- https://www.swpc.noaa.gov/products/planetary-k-index
+- https://www.spaceweatherlive.com/en/help/the-kp-index.html
+- https://www.swpc.noaa.gov/phenomena/solar-wind
+- 
+
