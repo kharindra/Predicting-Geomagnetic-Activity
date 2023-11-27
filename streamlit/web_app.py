@@ -14,7 +14,7 @@ with open('../pickles/model.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 
 
-img = "../images/background.jpeg"
+img = "../images/aurora.jpeg"
 
 
 st.image(img)
