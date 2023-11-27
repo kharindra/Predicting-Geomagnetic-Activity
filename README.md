@@ -30,7 +30,7 @@ The major benefit of predicting geomagnetic events is to protect the power grid 
 
 ### Application:
 
-To run the application, install all required libraries above. And run the following command from the local repo **/streamlit** directory:
+To run the application, you can install all the required libraries above. And run the following command from the local repo **/streamlit** directory:
 
 ```console
 streamlit run web_app.py
@@ -41,7 +41,7 @@ streamlit run web_app.py
 ### What is Solar wind:
 
 - Solar wind consists of particles emitted from the sun's atmosphere with a sufficiently large velocity to escape from the sun's gravitational acceleration.
-- Solar wind can mainly be divided into slow and fast wind, the common state of the solar wind is slow wind.
+- Solar wind can mainly be divided into slow and fast wind. The common state of the solar wind is slow wind.
   
        slow wind 200 km/s - 450 km/s
        fast wind 450 km/s - 850 km/s
@@ -58,7 +58,7 @@ streamlit run web_app.py
       Solar maximum
       Declining phase
 
-To learn more about space weather predictions please visit : https://www.swpc.noaa.gov/products/solar-cycle-progression     
+To learn more about space weather predictions, please visit : https://www.swpc.noaa.gov/products/solar-cycle-progression     
 
 ### Solar wind Properties at 1~au:
 
@@ -171,6 +171,8 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 
 ***Model evaluation based on train/test score***
 
+Baseline acc : 0.935 
+
 | Model          | Score on train | Score on test |
 |----------------|----------------|---------------|
 | RandomForestc       |     0.982      |     0.951     |
@@ -210,4 +212,11 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 
 ### Special Thanks
 - To our advisors: Musfiqur Rahman, Sonyah Seiden, and Eric Bayless
+
+### References
+
+- https://www.swpc.noaa.gov/products/planetary-k-index
+- https://www.spaceweatherlive.com/en/help/the-kp-index.html
+- https://www.swpc.noaa.gov/phenomena/solar-wind
+- https://www.gfz-potsdam.de/en/section/geomagnetism/data-products-services/geomagnetic-kp-index
 
