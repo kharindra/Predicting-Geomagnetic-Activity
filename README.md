@@ -30,7 +30,7 @@ The major benefit of predicting geomagnetic events is to protect the power grid 
 
 ### Application:
 
-To run the application, you can just install all the required libraries above. And run the following command from the local repo **/streamlit** directory:
+To run the application, you can install all the required libraries above. And run the following command from the local repo **/streamlit** directory:
 
 ```console
 streamlit run web_app.py
