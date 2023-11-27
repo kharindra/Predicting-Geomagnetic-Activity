@@ -2,9 +2,9 @@
 
 ### Problem Statement
 
-The main goal of this project is to identify the relationship between the solar indices (sunspot number, F10.7cm radio flux) and the geomagnetic indices in order to track the geomagnetic activity near Earth. This study will ensure the identification of the strength of auroras based on the observed solar wind at 1~au.
+The main goal of this project is to identify the relationship between the solar indices (sunspot number, F10.7cm radio flux) and the geomagnetic indices in order to track the geomagnetic activity near Earth under different phases of the solar cycle. This study will ensure the identification of the strength of auroras based on the observed solar wind at 1~au.
 
-The developed machine learning model will help the users to identify whether the specific day might be experiencing a geomagnetic storm or not. As for now, we have only utilized data from January 1, 1992, to December 31, 2022, to train the model. Later, we expect to use more data in order to improve the accuracy of the model. To test the model, we selected data for the time period from January 1, 2023, to October 27, 2023.
+The developed machine learning model will help the users to identify whether the specific day might be experiencing a geomagnetic storm or not. As for now, we have only utilized data from January 1, 1992, to December 31, 2022, to train the model. Later, we expect to use more data in order to improve the accuracy and identify any new research trends in the model. To test the model, we selected data for the time period from January 1, 2023, to October 27, 2023.
 
 ---
 
@@ -26,13 +26,17 @@ The developed machine learning model will help the users to identify whether the
 
 ### Application:
 
-To run the application, you can install all the required libraries above. And run the following command from the local repo **/streamlit** directory:
+To run the application, you'll need to install all the required libraries above. And run the following command from the local repo **/streamlit** directory:
 
 ```console
 streamlit run web_app.py
 ```
 
 <img src =images/web_app.png/>
+
+### Below is some of the vocabulary used here for a non-technical audience
+
+**1~au:** The distance between the sun and the earth.
 
 ### What is Solar wind:
 
@@ -43,6 +47,7 @@ streamlit run web_app.py
        fast wind 450 km/s - 850 km/s
 
 ### Sunspot solar cycle:
+
 - Solar cycles have an average duration of about 11 years.
 - Solar maximum and solar minimum refer to periods of maximum and minimum sunspot counts.
 - Cycles span from one minimum to the next.
@@ -54,7 +59,7 @@ streamlit run web_app.py
       Solar maximum
       Declining phase
 
-To learn more about space weather predictions, please visit : https://www.swpc.noaa.gov/products/solar-cycle-progression     
+To learn more about space weather predictions, please visit: https://www.swpc.noaa.gov/products/solar-cycle-progression     
 
 ### Solar wind Properties at 1~au:
 
@@ -113,7 +118,7 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
  - Data_collection
     - **OMNI_websitedata_collection.ipynb**
 
-         This notebook uses automation to download solar wind parameter data at 1~au using the NASA, Coordinated Data Analysis Web.
+         This notebook uses automation to download solar wind parameter data at 1~au using the NASA Coordinated Data Analysis Web.
 
           Requirements:
           Selenium webdriver (chrome/safari)
@@ -167,7 +172,7 @@ The Kp-index is a scale used to measure the magnitude of geomagnetic disturbance
 
 ***Model evaluation based on train/test score***
 
-Baseline acc : 0.935 
+Baseline acc: 0.935 
 
 | Model          | Score on train | Score on test |
 |----------------|----------------|---------------|
