@@ -2,13 +2,9 @@
 
 ### Problem Statement
 
-The main goal of this project is to identify the relationship between the solar indices (sunspot number, F10.7cm radio flux) and the geomagnetic indices and to track geomagnetic activity near Earth. This study will also ensure the identification of the effects of auroras based on the solar wind properties at 1~au, derived from solar activity.
+The main goal here is to identify the relationship between the solar indices (sunspot number, F10.7cm radio flux) and the geomagnetic indices in order to track the geomagnetic activity near Earth. This study will ensure the identification of the strength of auroras based on the observed solar wind at 1~au.
 
-The model developed here will help users identify whether a specific day might experience a geomagnetic storm or not. For this project, we have utilized sunspot data and solar wind data from January 1, 1992, to December 31, 2022. To test the model, we selected data from January 1, 2023, to October 27, 2023. In the future, we plan to increase the dataset by gathering information available from various websites. We anticipate that this will enhance the model's accuracy and its ability to track geomagnetic storms more precisely.
-
-The major benefit of predicting geomagnetic events is to protect the power grid system on Earth, avoid damage to GPS and satellite systems, as well as safeguard astronauts.
-
-**Note:** 1~au is the distance between the sun and the earth
+The developed machine learning model will help the users to identify a specific day that might be experiencing a geomagnetic storm. As for now, we have only utilized the sunspot data from January 1, 1992, to December 31, 2022 later, we expect to use more data to improve the accuracy of the model. To test the model, we selected data from January 1, 2023, to October 27, 2023.
 
 ---
 
